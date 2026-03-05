@@ -81,13 +81,12 @@ The confusion matrix below highlights strong class separation, verifying that th
 
 ---
 
-##  Explainable AI (Grad-CAM Results)
+##  Output
 
-Understanding *why* a model makes a decision is paramount in healthcare. Below are localized heatmaps demonstrating the model's focus during successful classifications.
 
 <p align="center">
-  <img src="assets/grad_cam_1.png" width="45%" style="border-radius: 10px; margin: 10px;" />
-  <img src="assets/grad_cam_2.png" width="45%" style="border-radius: 10px; margin: 10px;" />
+  <img src="MRI Scan1.png" width="45%" style="border-radius: 10px; margin: 10px;" />
+  <img src="MRI Scan2.png" width="45%" style="border-radius: 10px; margin: 10px;" />
 </p>
 
 | Patient Case | View Type | Analysis Outcome |
