@@ -97,38 +97,6 @@ Understanding *why* a model makes a decision is paramount in healthcare. Below a
 
 ---
 
-##  Quick Start
-
-### 1. Installation
-Clone the repository and install the required dependencies:
-```bash
-git clone https://github.com/Mohanariprasath/BrainTumor-Classification.git
-cd BrainTumor-Classification
-pip install -r web_app/requirements.txt
-```
-
-### 2. Model Setup
-Ensure your trained model checkpoint (`best_brain_tumor_model.pth`) is located in the `web_app/` directory.
-
-### 3. Launch the Application
-Start the Flask development server:
-```bash
-python web_app/app.py
-```
-Access the dashboard at `http://localhost:5000`.
-
----
-
-##  Tech Stack
-
-- **Frameworks**: PyTorch, TensorFlow, Keras
-- **Visualization**: OpenCV, Matplotlib, Grad-CAM
-- **Web Backend**: Flask (Python)
-- **Frontend**: HTML5, Modern CSS (Glassmorphism), JavaScript
-- **Training**: ResNet Stack (Transfer Learning)
-
----
-
 ##  License & Disclaimer
 
 - **License**: MIT License. See `LICENSE` for details.
