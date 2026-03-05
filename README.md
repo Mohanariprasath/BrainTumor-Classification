@@ -60,7 +60,7 @@ To maximize the model's focus on brain tissue and minimize noise, we employ auto
 
 Our models have been rigorously tested to ensure clinical-grade reliability.
 
-### 📈 Training & Validation Dynamics
+###  Training & Validation Dynamics
 The following plots illustrate the accuracy and loss curves during training. The stable convergence demonstrates strong generalization without significant overfitting.
 
 <p align="center">
