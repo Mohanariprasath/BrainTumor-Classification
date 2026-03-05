@@ -1,6 +1,5 @@
-# 🧠 BrainScan AI: High-Performance Tumor Classification
+# BrainScan AI: High-Performance Tumor Classification
 
-![Banner](assets/banner.png)
 
 <div align="center">
 
@@ -17,11 +16,11 @@
 
 ---
 
-## 🌟 Overview
+##  Overview
 
 **BrainScan AI** is designed to assist medical professionals by providing rapid, AI-driven preliminary scans of MRI data. Our system doesn't just predict; it **explains**. By integrating **Grad-CAM (Gradient-weighted Class Activation Mapping)**, the model highlights the specific regions in an MRI scan that contributed most to its classification, ensuring transparency and trust in the diagnostic process.
 
-### ✨ Key Features
+###  Key Features
 - **Multi-Class Detection**: Accurate classification of **Glioma**, **Meningioma**, and **Pituitary** tumors, or **No Tumor**.
 - **Explainable Insights**: Real-time heatmap generation to visualize tumor localization.
 - **Dual Pipeline**: Optimized implementations in both **PyTorch** (Inference) and **TensorFlow** (Robust Training).
@@ -29,7 +28,7 @@
 
 ---
 
-## 📊 Dataset Insight
+##  Dataset Insight
 
 Our model is trained on a comprehensive collection of MRI scans spanning four distinct classes.
 
@@ -47,7 +46,7 @@ Diverse MRI modalities are utilized to generalize the model's feature extraction
 
 ---
 
-## ✂️ Preprocessing
+##  Preprocessing
 
 To maximize the model's focus on brain tissue and minimize noise, we employ automated cropping techniques that remove unnecessary dark background regions from the MRI scans.
 
@@ -57,7 +56,7 @@ To maximize the model's focus on brain tissue and minimize noise, we employ auto
 
 ---
 
-## 🚀 Performance Metrics
+##  Performance Metrics
 
 Our models have been rigorously tested to ensure clinical-grade reliability.
 
@@ -68,7 +67,7 @@ The following plots illustrate the accuracy and loss curves during training. The
   <img src="assets/training_curves.png" width="80%" alt="Training and Validation Curves" />
 </p>
 
-### 🎯 Classification Results
+###  Classification Results
 The confusion matrix below highlights strong class separation, verifying that the model achieves high precision across all tumor classes and healthy scans.
 
 <p align="center">
@@ -82,7 +81,7 @@ The confusion matrix below highlights strong class separation, verifying that th
 
 ---
 
-## 🔍 Explainable AI (Grad-CAM Results)
+##  Explainable AI (Grad-CAM Results)
 
 Understanding *why* a model makes a decision is paramount in healthcare. Below are localized heatmaps demonstrating the model's focus during successful classifications.
 
@@ -98,7 +97,7 @@ Understanding *why* a model makes a decision is paramount in healthcare. Below a
 
 ---
 
-## ⚡ Quick Start
+##  Quick Start
 
 ### 1. Installation
 Clone the repository and install the required dependencies:
@@ -120,7 +119,7 @@ Access the dashboard at `http://localhost:5000`.
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frameworks**: PyTorch, TensorFlow, Keras
 - **Visualization**: OpenCV, Matplotlib, Grad-CAM
@@ -130,15 +129,9 @@ Access the dashboard at `http://localhost:5000`.
 
 ---
 
-## 🛡️ License & Disclaimer
+##  License & Disclaimer
 
 - **License**: MIT License. See `LICENSE` for details.
 - **Disclaimer**: *This tool is intended for research and educational purposes only. It is not a substitute for professional medical advice, diagnosis, or treatment.*
 
 ---
-
-## 🤝 Contact
-**Mohana Riprasath**
-[GitHub Profile](https://github.com/Mohanariprasath) | [LinkedIn](https://www.linkedin.com/in/mohanariprasath/)
-
-Project Link: [BrainTumor-Classification](https://github.com/Mohanariprasath/BrainTumor-Classification)
